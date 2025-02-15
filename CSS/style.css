@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+header{
+  /* background-color: red; */
+  text-align: center;
+}
+main{
+  /* background-color: green; */
+}
+main::after{
+  content:"";
+  display: table;
+  clear:both;
+}
+footer{
+  /* background-color: blue; */
+}
+.blocco-img{
+  display: inline-block;
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-image: url(https://static.wixstatic.com/media/e824e2_8a499f1532ec49449ee62661bf21c449~mv2.jpg/v1/fill/w_960,h_836,al_c/e824e2_8a499f1532ec49449ee62661bf21c449~mv2.jpg);
+}
+.blocco-menù{
+  background-color: lightgrey;
+  margin:1% 15%;
+  width: 70%;
+  border:1px solid black;
+}
+.blocco-menù span{
+  display: inline-block;
+  width: 16%;
+  /* margin: 1% 1%; */
+  font-size: 1em;
+  padding: 1% 1%;
+}
+.colonna-1 , .colonna-2 , .colonna-3{
+  float: left;
+  width: 100px;
+  border: 2px solid black;
+  padding:1%;
+}
+.colonna-1{
+  width: 20%;
+  margin: 2% 2%;
+  padding: 1% 1%;
+  text-align: center;
+  background-color: lightgrey;
+  /* font-size: 1em; */
+}
+.colonna-2{
+  width: 48%;
+  margin: 2% 2%;
+  background-color: lightgrey;
+}
+.testo-speciale{
+  transform: translateX(-10%);
+}
+.colonna-3{
+  background-color: lightgrey;
+  width: 20%;
+  margin: 2% 2%;
+  /* padding: 1% 2%; */
+  font-size: 1em;
+}
+.a{
+  float:left;
+  /* background-color: pink; */
+}
+.b{
+  float:left;
+  /* background-color: yellow; */
+  margin-top: 20%;
+}
+.link a{
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bolder;
+  color:green;
+  margin: 5% 0;
+  /* border: 2px solid black; */
+}
+a:link{
+  text-decoration: none;
+}
+
+#icon-wifi{
+  display: inline-block;
+  transform: rotate(45deg);
+  color:orange;
+  font-size: 30px;
+  margin: 5% 0;
+}
+.contenitore-f{
+  background-color:white;
+  width: 60%;
+  text-align: center;
+  margin:5% 20%;
+  border:1px solid black;
+  padding:1%;
+}
+.contenitore-f i{
+  color: grey;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5% 10%;
+}
+hr{
+  border: 1px solid grey;
+  margin: 0 -15px;
+}
+.testo-f{
+  color:grey;
+  font-style: oblique;
+  font-weight: bolder;
+}
+h2{
+  display: inline-block;
+}
+h3{
+  margin: 3% 5%;
+}
