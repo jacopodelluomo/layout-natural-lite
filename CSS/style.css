@@ -32,6 +32,8 @@ footer{
   /* background-color: blue; */
   padding:1%;
 }
+
+
 .blocco-img{
   background-color:red;
   border: 4px solid white;
@@ -78,7 +80,6 @@ footer{
   color:white;
   margin-top: 4%;
 }
-
 .blocco-menù{
   background-color: #504741;
   width: 70%;
@@ -99,6 +100,8 @@ footer{
   font-weight: bold;
   font-size: 14px;
 }
+
+
 .blocco-menù span:first-child{
   border-left: 0;
 }
@@ -109,6 +112,8 @@ footer{
   color:#C8C6C5;
   background-color:#302A25;
 }
+
+
 .colonna-3{
   float: left;
   width: 100px;
@@ -138,8 +143,18 @@ footer{
   background-color:white;
   border-radius: 1%;
 }
+.testo-link{
+  text-align: left;
+}
 .testo-speciale{
   transform: translateX(-10%);
+  text-align: center;
+}
+.colonna-2 p{
+  margin-top:6%;
+}
+.colonna-3 p{
+  margin-top:25%;
 }
 .colonna-3{
   /* background-color: lightgrey; */
@@ -154,7 +169,6 @@ footer{
   background-color:white;
   /* border: 1px solid black; */
   border-radius: 1%;
-
 }
 .contain-b{
   float: left;
@@ -163,8 +177,9 @@ footer{
   /* border: 1px solid black; */
   margin-top: 20%;
   border-radius: 1%;
-
 }
+
+
 .a{
   float:left;
   /* background-color: pink; */
@@ -172,8 +187,8 @@ footer{
 .b{
   float:left;
   /* background-color: yellow; */
-
 }
+
 .link a{
   display: inline-block;
   font-size: 1em;
@@ -192,12 +207,15 @@ a:hover{
   font-size: 150%;
 }
 #icon-wifi{
-  display: inline-block;
   transform: rotate(45deg);
   color:orange;
   font-size: 30px;
-  margin: 5% 0;
+  margin: 0 0;
+  display: inline-block;
+  vertical-align: 30px;
 }
+
+
 .contenitore-f{
   background-color:white;
   width: 100%;
@@ -210,7 +228,7 @@ a:hover{
   color: grey;
   display: inline-block;
   font-size: 30px;
-  margin: 5% 5%;
+  margin: 5% 15%;
 }
 hr{
   border: 1px solid grey;
@@ -221,25 +239,37 @@ hr{
   font-style: oblique;
   font-weight: bolder;
 }
+
 h2{
   display: inline-block;
+  text-transform: uppercase;
+  margin: 2% 5%;
+}
+.colonna-2 h2{
+  text-shadow: 2px 2px grey;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 2% 5%;
 }
 h3{
-  margin: 3% 5%;
+  text-transform: uppercase;
+  margin: 2% 5%;
 }
 h4{
-  margin: 3% 5%;
-
+  text-transform: uppercase;
+  margin: 2% 5%;
 }
+
+
 .face-link:hover{
   color:rgb(72, 100, 159);
-  font-size: 400%;
+  font-size: 200%;
 }
 .insta-link:hover{
   color:rgb(247, 6, 145);
-  font-size: 400%;
+  font-size: 200%;
 }
 .git-link:hover{
   color:rgb(0, 0, 0);
-  font-size: 400%;
+  font-size: 200%;
 }
